@@ -1,0 +1,19 @@
+* NGSPICE file created from maj3.ext - technology: gf180mcuD
+
+.subckt maj3 A B C Y VDD VNW VPW VSS
+X0 Y idk VSS VPW nfet_03v3 ad=0.5808p pd=3.52u as=0.3432p ps=1.84u w=1.32u l=0.6u
+X1 a_186_504# C idk VNW pfet_03v3 ad=0.5673p pd=2.45u as=0.8068p ps=4.55u w=1.83u l=0.5u
+X2 a_634_504# A VDD VNW pfet_03v3 ad=0.5673p pd=2.45u as=0.5673p ps=2.45u w=1.83u l=0.5u
+X3 VDD C a_1082_504# VNW pfet_03v3 ad=0.5673p pd=2.45u as=0.5673p ps=2.45u w=1.83u l=0.5u
+X4 a_206_0# C idk VPW nfet_03v3 ad=0.3432p pd=1.84u as=0.5808p ps=3.52u w=1.32u l=0.6u
+X5 a_1082_504# B idk VNW pfet_03v3 ad=0.5673p pd=2.45u as=0.5673p ps=2.45u w=1.83u l=0.5u
+X6 VSS A a_206_0# VPW nfet_03v3 ad=0.3432p pd=1.84u as=0.3432p ps=1.84u w=1.32u l=0.6u
+X7 a_654_0# A VSS VPW nfet_03v3 ad=0.3432p pd=1.84u as=0.3432p ps=1.84u w=1.32u l=0.6u
+X8 VDD A a_186_504# VNW pfet_03v3 ad=0.5673p pd=2.45u as=0.5673p ps=2.45u w=1.83u l=0.5u
+X9 idk B a_654_0# VPW nfet_03v3 ad=0.3432p pd=1.84u as=0.3432p ps=1.84u w=1.32u l=0.6u
+X10 a_1102_0# B idk VPW nfet_03v3 ad=0.3432p pd=1.84u as=0.3432p ps=1.84u w=1.32u l=0.6u
+X11 idk B a_634_504# VNW pfet_03v3 ad=0.5673p pd=2.45u as=0.5673p ps=2.45u w=1.83u l=0.5u
+X12 Y idk VDD VNW pfet_03v3 ad=0.9882p pd=4.74u as=0.5673p ps=2.45u w=1.83u l=0.5u
+X13 VSS C a_1102_0# VPW nfet_03v3 ad=0.3432p pd=1.84u as=0.3432p ps=1.84u w=1.32u l=0.6u
+.ends
+
