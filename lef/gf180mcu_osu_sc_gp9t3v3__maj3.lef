@@ -1,0 +1,99 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO maj3
+  CLASS BLOCK ;
+  FOREIGN maj3 ;
+  ORIGIN 1.220 4.645 ;
+  SIZE 7.300 BY 6.350 ;
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT -1.220 -1.495 6.080 1.705 ;
+      LAYER Metal1 ;
+        RECT -1.220 1.005 6.080 1.705 ;
+        RECT 1.030 -0.890 1.280 1.005 ;
+        RECT 4.430 -0.890 4.680 1.005 ;
+    END
+  END VDD
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.030 -3.945 1.280 -2.945 ;
+        RECT 4.430 -3.945 4.680 -2.945 ;
+        RECT -1.220 -4.645 6.080 -3.945 ;
+    END
+  END VSS
+  PIN A
+    ANTENNAGATEAREA 1.530000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.905 -2.160 1.405 -1.860 ;
+      LAYER Metal2 ;
+        RECT 0.955 -1.810 1.355 -1.760 ;
+        RECT 0.905 -2.210 1.405 -1.810 ;
+        RECT 0.955 -2.260 1.355 -2.210 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 1.530000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.605 -2.160 3.105 -1.860 ;
+      LAYER Metal2 ;
+        RECT 2.655 -1.810 3.055 -1.760 ;
+        RECT 2.605 -2.210 3.105 -1.810 ;
+        RECT 2.655 -2.260 3.055 -2.210 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 1.530000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.170 -1.835 0.130 -1.335 ;
+        RECT 3.880 -1.835 4.180 -1.335 ;
+      LAYER Metal2 ;
+        RECT -0.170 -1.035 4.180 -0.735 ;
+        RECT -0.170 -1.335 0.130 -1.035 ;
+        RECT 3.880 -1.335 4.180 -1.035 ;
+        RECT -0.220 -1.385 0.180 -1.335 ;
+        RECT 3.830 -1.385 4.230 -1.335 ;
+        RECT -0.270 -1.785 0.230 -1.385 ;
+        RECT 3.780 -1.785 4.280 -1.385 ;
+        RECT -0.220 -1.835 0.180 -1.785 ;
+        RECT 3.830 -1.835 4.230 -1.785 ;
+    END
+  END C
+  PIN Y
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.280 -1.860 5.530 0.655 ;
+        RECT 5.280 -2.160 6.030 -1.860 ;
+        RECT 5.280 -3.595 5.530 -2.160 ;
+      LAYER Metal2 ;
+        RECT 5.580 -1.810 5.980 -1.760 ;
+        RECT 5.530 -2.210 6.030 -1.810 ;
+        RECT 5.580 -2.260 5.980 -2.210 ;
+    END
+  END Y
+  OBS
+      LAYER Metal1 ;
+        RECT -0.670 -2.410 -0.420 0.655 ;
+        RECT 2.730 -1.165 2.980 0.655 ;
+        RECT 2.730 -1.415 3.605 -1.165 ;
+        RECT 3.355 -2.080 3.605 -1.415 ;
+        RECT 4.730 -2.080 5.030 -1.955 ;
+        RECT 3.355 -2.330 5.030 -2.080 ;
+        RECT 3.355 -2.410 3.605 -2.330 ;
+        RECT -0.670 -2.665 3.605 -2.410 ;
+        RECT 4.730 -2.455 5.030 -2.330 ;
+        RECT -0.670 -3.595 -0.420 -2.665 ;
+        RECT 2.730 -3.595 2.980 -2.665 ;
+  END
+END maj3
+END LIBRARY
+

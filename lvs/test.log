@@ -1,0 +1,330 @@
+Running LVS for cell: gf180mcu_osu_sc_gp9t3v3__maj3
+PDK_ROOT is /foss/pdks/ciel/gf180mcu/versions/fe2b40c6d7f43ab31aeb4c50c280b3da925c9462
+PDK is gf180mcuD
+
+Magic 8.3 revision 528 - Compiled on Wed Jun 18 09:45:25 PM CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Using technology "gf180mcuD", version 1.0.534-0-gfe2b40c
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "maj3".
+Extracting maj3 into extfiles/maj3.ext:
+exttospice finished.
+Netgen 1.5.295 compiled on Wed Jun 18 09:36:23 PM CEST 2025
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Call to undefined subcircuit nfet_03v3
+Creating placeholder cell definition.
+Call to undefined subcircuit pfet_03v3
+Creating placeholder cell definition.
+Call to undefined subcircuit nfet_05v0
+Creating placeholder cell definition.
+Call to undefined subcircuit pfet_05v0
+Creating placeholder cell definition.
+Call to undefined subcircuit nplus_u_m1
+Creating placeholder cell definition.
+Duplicate cell nfet_03v3_dss in file
+Renaming original cell to nfet_03v3_dss[[0]]
+Duplicate cell nplus_u_m1 in file
+Renaming original cell to nplus_u_m1[[0]]
+Duplicate cell nfet_03v3_dss in file
+Renaming original cell to nfet_03v3_dss[[1]]
+Duplicate cell nplus_u_m1 in file
+Renaming original cell to nplus_u_m1[[1]]
+Duplicate cell nfet_03v3_dss in file
+Renaming original cell to nfet_03v3_dss[[2]]
+Duplicate cell nplus_u_m1 in file
+Renaming original cell to nplus_u_m1[[2]]
+Duplicate cell nfet_03v3_dss in file
+Renaming original cell to nfet_03v3_dss[[3]]
+Duplicate cell nplus_u_m1 in file
+Renaming original cell to nplus_u_m1[[3]]
+Call to undefined subcircuit pplus_u_m1
+Creating placeholder cell definition.
+Duplicate cell pfet_03v3_dss in file
+Renaming original cell to pfet_03v3_dss[[0]]
+Duplicate cell pplus_u_m1 in file
+Renaming original cell to pplus_u_m1[[0]]
+Duplicate cell pfet_03v3_dss in file
+Renaming original cell to pfet_03v3_dss[[1]]
+Duplicate cell pplus_u_m1 in file
+Renaming original cell to pplus_u_m1[[1]]
+Duplicate cell pfet_03v3_dss in file
+Renaming original cell to pfet_03v3_dss[[2]]
+Duplicate cell pplus_u_m1 in file
+Renaming original cell to pplus_u_m1[[2]]
+Duplicate cell pfet_03v3_dss in file
+Renaming original cell to pfet_03v3_dss[[3]]
+Duplicate cell pplus_u_m1 in file
+Renaming original cell to pplus_u_m1[[3]]
+Call to undefined subcircuit nplus_u_m2
+Creating placeholder cell definition.
+Call to undefined subcircuit pplus_u_m2
+Creating placeholder cell definition.
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Device nwell already has property named ""
+Duplicate cell nfet_03v3_dss in file
+Renaming original cell to nfet_03v3_dss[[4]]
+Duplicate cell nplus_u_m1 in file
+Renaming original cell to nplus_u_m1[[4]]
+Duplicate cell pfet_03v3_dss in file
+Renaming original cell to pfet_03v3_dss[[4]]
+Duplicate cell pplus_u_m1 in file
+Renaming original cell to pplus_u_m1[[4]]
+Duplicate cell nfet_06v0_nvt in file
+Renaming original cell to nfet_06v0_nvt[[0]]
+Duplicate cell pfet_06v0_dss in file
+Renaming original cell to pfet_06v0_dss[[0]]
+Duplicate cell pplus_u_m2 in file
+Renaming original cell to pplus_u_m2[[0]]
+Duplicate cell nfet_03v3 in file
+Renaming original cell to nfet_03v3[[0]]
+Duplicate cell pfet_03v3 in file
+Renaming original cell to pfet_03v3[[0]]
+Duplicate cell nfet_06v0 in file
+Renaming original cell to nfet_06v0[[0]]
+Duplicate cell pfet_06v0 in file
+Renaming original cell to pfet_06v0[[0]]
+
+Reading setup file /foss/pdks/ciel/gf180mcu/versions/fe2b40c6d7f43ab31aeb4c50c280b3da925c9462/gf180mcuD/libs.tech/netgen/gf180mcuD_setup.tcl
+
+No property area found for device c
+No property w found for device r
+No property l found for device r
+No property area found for device cap_mim_1f0_model
+No property area found for device fox_sub
+No property area found for device cap_mim_1f5_model
+No property area found for device cap_mim_2f0_model
+Model ppolyf_u pin 1 == 2
+No property par1 found for device ppolyf_u
+No property pm found for device ppolyf_u
+No property r found for device ppolyf_u
+Model npolyf_u pin 1 == 2
+No property par1 found for device npolyf_u
+No property pm found for device npolyf_u
+No property r found for device npolyf_u
+Model ppolyf_s pin 1 == 2
+No property par1 found for device ppolyf_s
+No property pm found for device ppolyf_s
+No property r found for device ppolyf_s
+Model nplus_u pin 1 == 2
+No property par1 found for device nplus_u
+No property pm found for device nplus_u
+No property r found for device nplus_u
+Model pplus_u pin 1 == 2
+No property par1 found for device pplus_u
+No property pm found for device pplus_u
+No property r found for device pplus_u
+Model npolyf_s pin 1 == 2
+No property par1 found for device npolyf_s
+No property pm found for device npolyf_s
+No property r found for device npolyf_s
+Model ppolyf_u_1k pin 1 == 2
+No property par1 found for device ppolyf_u_1k
+No property pm found for device ppolyf_u_1k
+No property r found for device ppolyf_u_1k
+Model ppolyf_u_1k_6p0 pin 1 == 2
+No property par1 found for device ppolyf_u_1k_6p0
+No property pm found for device ppolyf_u_1k_6p0
+No property r found for device ppolyf_u_1k_6p0
+Model rm1 pin 1 == 2
+No property par1 found for device rm1
+No property pm found for device rm1
+No property r found for device rm1
+Model rm2 pin 1 == 2
+No property par1 found for device rm2
+No property pm found for device rm2
+No property r found for device rm2
+Model rm3 pin 1 == 2
+No property par1 found for device rm3
+No property pm found for device rm3
+No property r found for device rm3
+Model rm4 pin 1 == 2
+No property par1 found for device rm4
+No property pm found for device rm4
+No property r found for device rm4
+Model nfet_03v3 pin 1 == 3
+No property par1 found for device nfet_03v3
+No property NRD found for device nfet_03v3
+No property NRS found for device nfet_03v3
+No property par found for device nfet_03v3
+No property sa found for device nfet_03v3
+No property sb found for device nfet_03v3
+No property sd found for device nfet_03v3
+No property par found for device nfet_03v3
+No property dtemp found for device nfet_03v3
+No property nf found for device nfet_03v3
+No such pin 1 in model nfet_03v3
+No property par1 found for device nfet_03v3
+No property par found for device nfet_03v3
+Model pfet_03v3 pin 1 == 3
+No property par1 found for device pfet_03v3
+No property NRD found for device pfet_03v3
+No property NRS found for device pfet_03v3
+No property par found for device pfet_03v3
+No property sa found for device pfet_03v3
+No property sb found for device pfet_03v3
+No property sd found for device pfet_03v3
+No property par found for device pfet_03v3
+No property dtemp found for device pfet_03v3
+No property nf found for device pfet_03v3
+No such pin 1 in model pfet_03v3
+No property par1 found for device pfet_03v3
+No property par found for device pfet_03v3
+No such pin 1 in model nfet_05v0
+No property par1 found for device nfet_05v0
+No property par found for device nfet_05v0
+No such pin 1 in model nfet_06v0
+No property par1 found for device nfet_06v0
+No property par found for device nfet_06v0
+No such pin 1 in model pfet_05v0
+No property par1 found for device pfet_05v0
+No property par found for device pfet_05v0
+No such pin 1 in model pfet_06v0
+No property par1 found for device pfet_06v0
+No property par found for device pfet_06v0
+No such pin 1 in model nfet_06v0_nvt
+No property par1 found for device nfet_06v0_nvt
+No property par found for device nfet_06v0_nvt
+No such pin 1 in model nfet_03v3_dss
+No property par1 found for device nfet_03v3_dss
+No property par found for device nfet_03v3_dss
+No such pin 1 in model pfet_03v3_dss
+No property par1 found for device pfet_03v3_dss
+No property par found for device pfet_03v3_dss
+No such pin 1 in model nfet_06v0_dss
+No property par1 found for device nfet_06v0_dss
+No property par found for device nfet_06v0_dss
+No such pin 1 in model pfet_06v0_dss
+No property par1 found for device pfet_06v0_dss
+No property par found for device pfet_06v0_dss
+No property par1 found for device cap_nmos_03v3
+No property NRD found for device cap_nmos_03v3
+No property NRS found for device cap_nmos_03v3
+No property as found for device cap_nmos_03v3
+No property ad found for device cap_nmos_03v3
+No property ps found for device cap_nmos_03v3
+No property pd found for device cap_nmos_03v3
+No property par1 found for device cap_nmos_06v0
+No property NRD found for device cap_nmos_06v0
+No property NRS found for device cap_nmos_06v0
+No property as found for device cap_nmos_06v0
+No property ad found for device cap_nmos_06v0
+No property ps found for device cap_nmos_06v0
+No property pd found for device cap_nmos_06v0
+No property par1 found for device cap_pmos_03v3
+No property NRD found for device cap_pmos_03v3
+No property NRS found for device cap_pmos_03v3
+No property as found for device cap_pmos_03v3
+No property ad found for device cap_pmos_03v3
+No property ps found for device cap_pmos_03v3
+No property pd found for device cap_pmos_03v3
+No property par1 found for device cap_pmos_06v0
+No property NRD found for device cap_pmos_06v0
+No property NRS found for device cap_pmos_06v0
+No property as found for device cap_pmos_06v0
+No property ad found for device cap_pmos_06v0
+No property ps found for device cap_pmos_06v0
+No property pd found for device cap_pmos_06v0
+No property par1 found for device cap_nmos_03v3_b
+No property NRD found for device cap_nmos_03v3_b
+No property NRS found for device cap_nmos_03v3_b
+No property as found for device cap_nmos_03v3_b
+No property ad found for device cap_nmos_03v3_b
+No property ps found for device cap_nmos_03v3_b
+No property pd found for device cap_nmos_03v3_b
+No property par1 found for device cap_nmos_06v0_b
+No property NRD found for device cap_nmos_06v0_b
+No property NRS found for device cap_nmos_06v0_b
+No property as found for device cap_nmos_06v0_b
+No property ad found for device cap_nmos_06v0_b
+No property ps found for device cap_nmos_06v0_b
+No property pd found for device cap_nmos_06v0_b
+No property par1 found for device cap_pmos_03v3_b
+No property NRD found for device cap_pmos_03v3_b
+No property NRS found for device cap_pmos_03v3_b
+No property as found for device cap_pmos_03v3_b
+No property ad found for device cap_pmos_03v3_b
+No property ps found for device cap_pmos_03v3_b
+No property pd found for device cap_pmos_03v3_b
+No property par1 found for device cap_pmos_06v0_b
+No property NRD found for device cap_pmos_06v0_b
+No property NRS found for device cap_pmos_06v0_b
+No property as found for device cap_pmos_06v0_b
+No property ad found for device cap_pmos_06v0_b
+No property ps found for device cap_pmos_06v0_b
+No property pd found for device cap_pmos_06v0_b
+No property par1 found for device diode_pd2nw_03v3
+No property par1 found for device diode_nd2ps_06v0
+No property par1 found for device diode_pd2nw_06v0
+No property par1 found for device npn_10p00x10p00
+No property par1 found for device npn_05p00x05p00
+No property par1 found for device npn_00p54x16p00
+No property par1 found for device npn_00p54x08p00
+No property par1 found for device npn_00p54x04p00
+No property par1 found for device npn_00p54x02p00
+No property par1 found for device pnp_10p00x00p42
+No property par1 found for device pnp_05p00x00p42
+No property par1 found for device pnp_10p00x10p00
+No property par1 found for device pnp_05p00x05p00
+Comparison output logged to file gf180mcu_osu_sc_gp9t3v3__maj3_comp.out
+Logging to file "gf180mcu_osu_sc_gp9t3v3__maj3_comp.out" enabled
+Circuit nfet_03v3 contains no devices.
+Circuit pfet_03v3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'maj3'
+Circuit maj3 contains 14 device instances.
+  Class: nfet_03v3             instances:   7
+  Class: pfet_03v3             instances:   7
+Circuit contains 69 nets.
+Contents of circuit 2:  Circuit: 'gf180mcu_osu_sc_gp9t3v3__maj3'
+Circuit gf180mcu_osu_sc_gp9t3v3__maj3 contains 16 device instances.
+  Class: nfet_03v3             instances:   8
+  Class: pfet_03v3             instances:   8
+Circuit contains 77 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'maj3'
+Circuit maj3 contains 14 device instances.
+  Class: nfet_03v3             instances:   7
+  Class: pfet_03v3             instances:   7
+Circuit contains 69 nets.
+Contents of circuit 2:  Circuit: 'gf180mcu_osu_sc_gp9t3v3__maj3'
+Circuit gf180mcu_osu_sc_gp9t3v3__maj3 contains 14 device instances.
+  Class: nfet_03v3             instances:   7
+  Class: pfet_03v3             instances:   7
+Circuit contains 77 nets.
+
+Circuit 1 contains 14 devices, Circuit 2 contains 14 devices.
+Circuit 1 contains 69 nets,    Circuit 2 contains 69 nets.
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "gf180mcu_osu_sc_gp9t3v3__maj3_comp.out" disabled
+LVS Done.
+Done with LVS!
