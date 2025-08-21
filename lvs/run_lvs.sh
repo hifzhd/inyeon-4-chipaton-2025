@@ -92,9 +92,7 @@ set setupfile \${techlibs}/netgen/${PDK}_setup.tcl
 set devicemodels \${techlibs}/ngspice/sm141064.ngspice
 
 set circuit1 [readnet spice ${CELL_NAME}_layout.spice]
-set circuit2 [readnet spice \${devicemodels}]
-
-readnet spice $CELL_NAME.spice \$circuit2
+set circuit2 [readnet spice ${CELL_NAME}.spice]
 
 lvs "\$circuit1 maj3" "\$circuit2 ${CELL_NAME}" \\
         \$setupfile ${CELL_NAME}_comp.out
